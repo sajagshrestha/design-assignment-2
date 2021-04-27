@@ -322,12 +322,12 @@ footer {
 	}
 	.footer-menu ul li a {
 		color: white;
-		font-size: 10px;
+		font-size: 14px;
 	}
 	.copyright {
 		margin-top: 2px;
 		color: white;
-		font-size: 10px;
+		font-size: 14px;
 	}
 	.mobile-menu li:first-child {
 		height: 40px;
@@ -545,6 +545,11 @@ footer {
 		color: white;
 		background-image: url("../images/tab-bg-active.png");
 	}
-
+	.footer-menu ul li a {
+		font-size: 10px;
+	}
+	.copyright {
+		font-size: 10px;
+	}
 	/* footer */
 }
