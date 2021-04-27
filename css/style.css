@@ -75,6 +75,9 @@ nav {
 .right-feed {
 	background-color: #f5f5f5;
 }
+.center-feed {
+	width: 100%;
+}
 .title {
 	background-color: #2fc1da;
 	color: #fff;
@@ -108,7 +111,123 @@ nav {
 	width: 14px;
 	margin-top: 5px;
 }
+.entry-type {
+	font-size: 13px;
+	text-align: center;
+	padding-top: 10px;
+}
+.entries {
+	height: 110px;
+	padding: 25px 0px;
+	border-bottom: 2px solid #d8d8d8;
+}
+.profile-img {
+	height: 100px;
+	width: 100px;
+	margin-right: 10px;
+}
+.feed-body-section {
+	margin: 20px 0;
+}
+.entry {
+	width: 70%;
+}
+.entry h1 {
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 3px;
+}
 
+.entry-title p {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 7px;
+	cursor: pointer;
+}
+.entry-info,
+.topic-box-info {
+	font-size: 16px;
+}
+.entry-info {
+	margin-bottom: 5px;
+}
+.blue-highlight,
+.green-highlight,
+.red-highlight {
+	font-weight: bold;
+	cursor: pointer;
+}
+.blue-highlight {
+	color: #2fc1da;
+}
+.green-highlight {
+	color: #70961f;
+}
+.red-highlight {
+	color: #d53f1a;
+}
+footer {
+	margin-top: 20px;
+	height: 280px;
+	background-color: #727272;
+	padding-top: 15px;
+}
+.footer-menu ul li {
+	padding: 15px 0;
+}
+
+.footer-menu ul li a {
+	color: white;
+	font-size: 16px;
+}
+.footer-menu a:hover {
+	text-decoration: underline;
+}
+.copyright {
+	margin-top: 5px;
+	color: white;
+	font-size: 16px;
+}
+.feed-title-section {
+	height: 33px;
+	margin-bottom: 10px;
+}
+.feed-title-section h1 {
+	margin-top: -10px;
+	font-size: 32px;
+	font-weight: normal;
+}
+.feed-menu-section {
+	height: 200px;
+	border-bottom: 2px solid #2fc1da;
+	background-color: #f5f5f5;
+}
+.feed-body-section {
+	margin: 0;
+	height: 507px;
+}
+.feed-menu-right,
+.feed-menu-left {
+	padding: 0 5px;
+}
+.feed-menu-items {
+	margin-top: 12px;
+}
+.feed-menu-item {
+	font-size: 12px;
+	margin: 0 5px;
+	padding: 10px 0px;
+	display: block;
+	text-align: center;
+	width: 114px;
+	background-repeat: no-repeat;
+	background-image: url("../images/tab-bg.png");
+}
+.active,
+.feed-menu-items a:hover {
+	color: white;
+	background-image: url("../images/tab-bg-active.png");
+}
 @media screen and (min-width: 997px) {
 	/* navgination bar */
 	.hamburger {
@@ -251,6 +370,25 @@ nav {
 		width: 518px;
 		height: 100%;
 	}
+	.entries {
+		height: 70px;
+		padding: 15px 0;
+	}
+	.profile-img {
+		height: 70px;
+		width: 70px;
+	}
+	.entry h1 {
+		font-size: 12px;
+	}
+
+	.entry-title p {
+		font-size: 14px;
+	}
+	.entry-info,
+	.topic-box-info {
+		font-size: 11px;
+	}
 	.feed-title-section {
 		height: 33px;
 		margin-bottom: 10px;
@@ -266,6 +404,7 @@ nav {
 		border-bottom: 2px solid #2fc1da;
 	}
 	.feed-body-section {
+		margin: 0;
 		height: 507px;
 	}
 	.feed-menu-right,
@@ -290,54 +429,6 @@ nav {
 		color: white;
 		background-image: url("../images/tab-bg-active.png");
 	}
-	.entry-type {
-		font-size: 13px;
-		text-align: center;
-		padding-top: 10px;
-	}
-	.entries {
-		height: 70px;
-		padding: 15px 0px;
-		border-bottom: 2px solid #d8d8d8;
-	}
-	.profile-img {
-		height: 70px;
-		width: 70px;
-		margin-right: 10px;
-	}
-	.entry h1 {
-		text-transform: uppercase;
-		font-size: 12px;
-		margin-bottom: 3px;
-	}
-	.entry-title p {
-		font-size: 14px;
-		font-weight: bold;
-		margin-bottom: 7px;
-		cursor: pointer;
-	}
-	.entry-info,
-	.topic-box-info {
-		font-size: 11px;
-	}
-	.entry-info {
-		margin-bottom: 5px;
-	}
-	.blue-highlight,
-	.green-highlight,
-	.red-highlight {
-		font-weight: bold;
-		cursor: pointer;
-	}
-	.blue-highlight {
-		color: #2fc1da;
-	}
-	.green-highlight {
-		color: #70961f;
-	}
-	.red-highlight {
-		color: #d53f1a;
-	}
 
 	/* footer */
 
@@ -352,7 +443,10 @@ nav {
 		padding-right: 8px;
 		background: url("../images/footer-list.png") 0 50% no-repeat;
 	}
-
+	.footer-menu ul li {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
 	.footer-menu ul li:first-child {
 		background: none;
 		padding-left: 0px;

@@ -22,6 +22,11 @@
 .items img {
 	float: right;
 }
+.profile-img,
+.entry {
+	float: left;
+}
+
 @media screen and (min-width: 997px) {
 	/* wrapper to center whole document */
 	.main-wrapper {
@@ -72,10 +77,6 @@
 	}
 
 	/* entry */
-	.profile-img,
-	.entry {
-		float: left;
-	}
 
 	.feed-menu-left,
 	.feed-menu-items a {
