@@ -39,6 +39,15 @@
 .search-images {
 	float: right;
 }
+.feed-menu-left,
+.feed-menu-item-1,
+.feed-menu-items a {
+	float: left;
+}
+.feed-menu-right,
+.feed-menu-item-2 {
+	float: right;
+}
 @media screen and (min-width: 700px) {
 	/* wrapper to center whole document */
 	.main-wrapper {
@@ -87,13 +96,6 @@
 
 	/* entry */
 
-	.feed-menu-left,
-	.feed-menu-items a {
-		float: left;
-	}
-	.feed-menu-right {
-		float: right;
-	}
 	/* footer */
 	.footer-menu ul li {
 		float: left;
