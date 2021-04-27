@@ -1,6 +1,12 @@
 .main-wrapper {
 	margin: 0 auto;
-	max-width: 92%;
+	width: 92%;
+}
+/* fix float issues */
+.clear:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 .logo {
 	float: left;
@@ -27,28 +33,31 @@
 	float: left;
 }
 
-@media screen and (min-width: 997px) {
+.search-box input {
+	float: left;
+}
+.search-images {
+	float: right;
+}
+@media screen and (min-width: 700px) {
 	/* wrapper to center whole document */
 	.main-wrapper {
 		margin: 0 auto;
 		width: 938px;
 		height: 100%;
 	}
-	/* fix float issues */
-	.clear:after {
-		content: "";
-		display: table;
-		clear: both;
-	}
+
 	/* general layout */
 	.logo,
 	.search {
 		float: left;
 	}
 
-	.search-box,
-	.search-button {
+	.search-box {
 		float: left;
+	}
+	.search-button {
+		float: right;
 	}
 
 	.profile,
