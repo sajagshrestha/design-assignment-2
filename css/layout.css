@@ -1,6 +1,6 @@
 .main-wrapper {
 	margin: 0 auto;
-	max-width: 80%;
+	max-width: 92%;
 }
 .logo {
 	float: left;
@@ -14,6 +14,12 @@
 .notification-section,
 .notifications span,
 .notifications:first-child {
+	float: right;
+}
+.item-title {
+	float: left;
+}
+.items img {
 	float: right;
 }
 @media screen and (min-width: 997px) {
@@ -64,12 +70,7 @@
 	.right-feed {
 		float: right;
 	}
-	.item-title {
-		float: left;
-	}
-	.items img {
-		float: right;
-	}
+
 	/* entry */
 	.profile-img,
 	.entry {

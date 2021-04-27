@@ -66,6 +66,49 @@ nav {
 	width: 14px;
 	margin-right: 8px;
 }
+.left-feed,
+.center-feed,
+.right-feed {
+	width: 100%;
+}
+.left-feed,
+.right-feed {
+	background-color: #f5f5f5;
+}
+.title {
+	background-color: #2fc1da;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.tabs {
+	padding: 18px 12px 0 12px;
+	display: block;
+	height: 40px;
+}
+
+.items:hover {
+	background-color: #fff;
+}
+.item-title,
+.rs-2 .item-title,
+.right-feed .item-title {
+	width: 90%;
+}
+.items h1 {
+	font-size: 16px;
+}
+.items .download {
+	height: 12px;
+	width: 14px;
+	margin-top: 10px;
+}
+.items .anchor {
+	height: 7px;
+	width: 14px;
+	margin-top: 5px;
+}
+
 @media screen and (min-width: 997px) {
 	/* navgination bar */
 	.hamburger {
@@ -165,43 +208,25 @@ nav {
 		margin: 30px 0 33px 0;
 	}
 	.left-feed {
+		margin-left: -735px;
 		width: 194px;
 		height: 597px;
 		background-color: #f5f5f5;
 	}
 	.tabs {
 		padding: 12px;
-		display: block;
-	}
-	.items {
-		line-height: 15px;
-	}
-	.items:hover {
-		background-color: #fff;
-	}
-	.item-title {
-		width: 95px;
+		height: auto;
 	}
 	.items h1 {
 		font-size: 10px;
 	}
-	.items .download {
-		height: 12px;
-		width: 14px;
-		margin-top: 10px;
-	}
-	.items .anchor {
-		height: 7px;
-		width: 14px;
-		margin-top: 5px;
+	.item-title {
+		width: 95px;
 	}
 	.rs-2 .item-title {
 		width: 140px;
 	}
-	.title {
-		background-color: #2fc1da;
-		color: #fff;
-	}
+
 	.right-feed {
 		width: 176px;
 		height: 597px;
@@ -217,13 +242,12 @@ nav {
 	.right-feed .item-title {
 		width: 100%;
 	}
-	.left-feed,
-	.right-feed {
-		background-color: #f5f5f5;
-	}
 
+	.title {
+		font-size: 12px;
+	}
 	.center-feed {
-		margin: 0 0 0 26px;
+		margin-left: 220px;
 		width: 518px;
 		height: 100%;
 	}
