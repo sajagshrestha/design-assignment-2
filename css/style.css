@@ -145,6 +145,7 @@ nav {
 }
 .feed-menu-item-1,
 .feed-menu-item-2 {
+	cursor: pointer;
 	padding-top: 12px;
 	height: 35px;
 	width: 49.5%;
@@ -301,6 +302,12 @@ footer {
 	.notification-section {
 		width: 400px;
 	}
+	.mobile-feed-menu-items img {
+		display: block;
+		height: 28px;
+		width: 28px;
+		margin: 0 auto;
+	}
 	footer {
 		height: 30px;
 		background-color: #727272;
@@ -322,12 +329,12 @@ footer {
 	}
 	.footer-menu ul li a {
 		color: white;
-		font-size: 10px;
+		font-size: 14px;
 	}
 	.copyright {
 		margin-top: 2px;
 		color: white;
-		font-size: 10px;
+		font-size: 14px;
 	}
 	.mobile-menu li:first-child {
 		height: 40px;
@@ -545,6 +552,11 @@ footer {
 		color: white;
 		background-image: url("../images/tab-bg-active.png");
 	}
-
+	.footer-menu ul li a {
+		font-size: 10px;
+	}
+	.copyright {
+		font-size: 10px;
+	}
 	/* footer */
 }
